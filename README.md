@@ -137,28 +137,28 @@ Buat file `.env` di setiap service directory dengan konfigurasi berikut:
 
 **user-service/.env**
 ```env
-DATABASE_URL=postgresql://postgres:root@localhost:5432/microservice
+DATABASE_URL=postgresql://postgres:password@localhost:5432/microservice
 JWT_SECRET=your-secret-key-here
 PORT=3001
 ```
 
 **product-service/.env**
 ```env
-DATABASE_URL=postgresql://postgres:root@localhost:5432/microservice
+DATABASE_URL=postgresql://postgres:password@localhost:5432/microservice
 JWT_SECRET=your-secret-key-here
 PORT=3002
 ```
 
 **order-service/.env**
 ```env
-DATABASE_URL=postgresql://postgres:root@localhost:5432/microservice
+DATABASE_URL=postgresql://postgres:password@localhost:5432/microservice
 JWT_SECRET=your-secret-key-here
 PORT=3003
 ```
 
 **payment-service/.env**
 ```env
-DATABASE_URL=postgresql://postgres:root@localhost:5432/microservice
+DATABASE_URL=postgresql://postgres:password@localhost:5432/microservice
 JWT_SECRET=your-secret-key-here
 PORT=3004
 ```
@@ -329,7 +329,7 @@ This project is licensed under the MIT License.
 
 ## 👥 Team
 
-- Developer: [Your Name]
+- Developer: FKRSN
 - Project: Microservices Mini Project
 - Date: July 2025
 
